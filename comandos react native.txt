@@ -1,0 +1,39 @@
+Comando para aceitar as linceças (publicação da aplicação no emulador)
+sdkmanager --licenses
+
+Descobrir os emuladores instalados
+emulator -list-avds
+
+Executar o emulador
+emulator -no-snapshot -avd nomeDoEmulador
+
+Instalar o pacote responsavel pela criação no react native (forma global)
+npm i -g react-native-cli
+
+Para criar o projeto
+react-native init nomeDoProjeto
+
+Para rodar a aplicação
+react-native run-android
+
+Para executar o emulador
+emulator -avd nomeDoEmulador
+
+==================================================================================================
+REACT NATIVE COM EXPO
+
+Instalação de pacote
+npm i -g create-react-native-app
+
+Criando o projeto react native
+create-react-native-app nomeDaAplicacao
+
+==================================================================================================
+
+Adicionando navegação ao projeto
+
+Dentro do arquivo package.json em dependencies adicionar o seguinte comando:
+"react-navigation":"2.7.0"
+Após isso executar outro comando para a instalar a dependencia:
+npm i
+
